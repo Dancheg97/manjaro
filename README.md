@@ -74,3 +74,5 @@ sudo snap install telegram-desktop
 # Mattermost
 
 sudo snap install mattermost-desktop
+
+# WireGuard
