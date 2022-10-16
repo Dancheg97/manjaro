@@ -1,3 +1,8 @@
+# Git
+
+git config --global user.email "dangdancheg@gmail.com"
+git config --global user.name "dancheg"
+
 # VSCode
 
 sudo pacman -S --needed git base-devel
