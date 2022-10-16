@@ -76,3 +76,6 @@ sudo snap install telegram-desktop
 sudo snap install mattermost-desktop
 
 # WireGuard
+
+sudo pacman -S wireguard-tools
+sudo wg-quick up ./wg.conf
