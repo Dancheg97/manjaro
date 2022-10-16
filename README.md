@@ -1,3 +1,5 @@
+# Programms for manjaro linux i personally use
+
 # Git
 
 git config --global user.email "dangdancheg@gmail.com"
