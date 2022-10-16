@@ -53,3 +53,11 @@ sudo snap install discord
 # Hide top bar
 
 https://extensions.gnome.org/extension/545/hide-top-bar/
+
+# Docker
+
+sudo pacman -Syu
+sudo pacman -S docker
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo docker version
