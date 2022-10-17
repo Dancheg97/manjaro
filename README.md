@@ -78,4 +78,4 @@ sudo snap install mattermost-desktop
 # WireGuard
 
 sudo pacman -S wireguard-tools
-sudo wg-quick up ./wg.conf
+sudo wg-quick down ./wg.conf;sudo wg-quick up ./wg.conf
