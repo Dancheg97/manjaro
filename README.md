@@ -80,5 +80,11 @@ sudo snap install mattermost-desktop
 # WireGuard
 
 sudo pacman -S wireguard-tools
-sudo wg-quick down ~/Documents/manjaro_stuff/wg.conf
-sudo wg-quick up ~/Documents/manjaro_stuff/wg.conf
+
+Shortcut:
+
+gksu sudo wg-quick down ~/Documents/manjaro_stuff/wg.conf;sudo wg-quick up ~/Documents/manjaro_stuff/wg.conf
+
+# GKSU
+
+sudo pacman -S gksu
