@@ -64,6 +64,8 @@ sudo systemctl start docker.service
 sudo systemctl enable docker.service
 sudo docker version
 
+pamac install docker-compose
+
 # Telegram
 
 sudo pacman -S snapd
