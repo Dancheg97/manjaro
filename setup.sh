@@ -17,7 +17,7 @@ yay -S google-chrome
 cd ..
 
 # NODE
-pacman -S nodejs npm
+sudo pacman -Sy nodejs npm
 
 # FLUTTER
 snap install flutter --classic
