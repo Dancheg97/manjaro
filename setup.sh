@@ -19,9 +19,6 @@ cd ..
 # NODE
 sudo pacman -Sy nodejs npm
 
-# FLUTTER
-snap install flutter --classic
-
 # GO
 sudo pacman -S go
 go install mvdan.cc/gofumpt@latest
@@ -41,6 +38,9 @@ sudo pacman -S steam
 sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
+
+# FLUTTER
+snap install flutter --classic
 
 # DISCORD
 sudo snap install discord
